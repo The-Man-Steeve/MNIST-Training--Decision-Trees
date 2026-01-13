@@ -1,0 +1,5 @@
+**Decision Tree Classifier**
+Parameters: 
+{'criterion': 'entropy', 'max_depth': 20, 'max_features': 'sqrt'}
+Accuracy: 
+0.8368

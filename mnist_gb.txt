@@ -1,0 +1,5 @@
+**Gradient Boosting Classifier**
+Parameters: 
+{'learning_rate': 0.2, 'max_depth': 5, 'max_features': 'sqrt', 'n_estimators': 200}
+Accuracy: 
+0.9728

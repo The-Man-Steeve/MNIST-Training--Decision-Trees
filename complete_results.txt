@@ -1,0 +1,828 @@
+**EXPERIMENT**
+C =  300
+D =  100
+Mode =  dt
+Best Hyperparameters: 
+criterion :  entropy
+max_depth :  6
+max_features :  None
+min_samples_leaf :  0.01
+min_samples_split :  2
+Final Results on Test Data:
+Accuracy:  0.635
+F1 Score:  0.6507177033492823
+
+**EXPERIMENT**
+C =  300
+D =  100
+Mode =  bagging
+Best Hyperparameters: 
+criterion :  entropy
+max_depth :  8
+max_features :  None
+min_samples_leaf :  0.01
+min_samples_split :  0.01
+Final Results on Test Data:
+Accuracy:  0.695
+F1 Score:  0.6995073891625616
+Best Parameters:
+n_estimators :  40
+max_samples :  0.15
+Accuracy:  0.675
+F1 Score:  0.6524064171122995
+**EXPERIMENT**
+C =  300
+D =  100
+Mode =  rf
+Constructing the random forest...
+n_estimators  :  150
+criterion  :  log_loss
+max_depth  :  15
+min_samples_split  :  0.1
+min_samples_leaf  :  0.01
+max_features  :  log2
+max_samples  :  0.9
+Accuracy:  0.815
+F1 Score:  0.821256038647343
+**EXPERIMENT**
+C =  300
+D =  100
+Mode =  gb
+Gradient Boosting...
+Best Parameters for Gradient Boosting:
+{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'init': None, 'learning_rate': 0.05, 'loss': 'log_loss', 'max_depth': 3, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 150, 'n_iter_no_change': None, 'random_state': None, 'subsample': 1.0, 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': 0, 'warm_start': False}
+**Testing on Test Set**
+Accuracy:  0.86
+F1 Score:  0.8627450980392157
+**EXPERIMENT**
+C =  300
+D =  1000
+Mode =  dt
+Best Hyperparameters: 
+criterion :  gini
+max_depth :  6
+max_features :  None
+min_samples_leaf :  1
+min_samples_split :  0.05
+Final Results on Test Data:
+Accuracy:  0.673
+F1 Score:  0.6900473933649289
+**EXPERIMENT**
+C =  300
+D =  1000
+Mode =  bagging
+Best Hyperparameters: 
+criterion :  gini
+max_depth :  6
+max_features :  None
+min_samples_leaf :  5
+min_samples_split :  0.05
+Final Results on Test Data:
+Accuracy:  0.673
+F1 Score:  0.6900473933649289
+Best Parameters:
+n_estimators :  50
+max_samples :  0.2
+Accuracy:  0.8335
+F1 Score:  0.832579185520362
+**EXPERIMENT**
+C =  300
+D =  1000
+Mode =  rf
+Constructing the random forest...
+n_estimators  :  150
+criterion  :  log_loss
+max_depth  :  5
+min_samples_split  :  0.05
+min_samples_leaf  :  0.01
+max_features  :  sqrt
+max_samples  :  0.9
+Accuracy:  0.8585
+F1 Score:  0.8558329088130413
+**EXPERIMENT**
+C =  300
+D =  1000
+Mode =  gb
+Gradient Boosting...
+Best Parameters for Gradient Boosting:
+{'ccp_alpha': 0.0, 'criterion': 'friedman_mse', 'init': None, 'learning_rate': 0.25, 'loss': 'log_loss', 'max_depth': 3, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 150, 'n_iter_no_change': None, 'random_state': None, 'subsample': 1.0, 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': 0, 'warm_start': False}
+**Testing on Test Set**
+Accuracy:  0.9895
+F1 Score:  0.9896091044037605
+**EXPERIMENT**
+C =  300
+D =  5000
+Mode =  dt
+Best Hyperparameters: 
+criterion :  entropy
+max_depth :  8
+max_features :  None
+min_samples_leaf :  5
+min_samples_split :  2
+Final Results on Test Data:
+Accuracy:  0.7792
+F1 Score:  0.7979502196193266
+
+**EXPERIMENT**
+C =  300
+D =  5000
+Mode =  bagging
+Best Hyperparameters: 
+criterion :  gini
+max_depth :  8
+max_features :  None
+min_samples_leaf :  10
+min_samples_split :  2
+Final Results on Test Data:
+Accuracy:  0.7796
+F1 Score:  0.7998547039593171
+Best Parameters:
+n_estimators :  50
+max_samples :  0.25
+Accuracy:  0.8981
+F1 Score:  0.9007112929942512
+**EXPERIMENT**
+C =  300
+D =  5000
+Mode =  rf
+Constructing the random forest...
+n_estimators  :  150
+criterion  :  entropy
+max_depth  :  15
+min_samples_split  :  0.01
+min_samples_leaf  :  0.01
+max_features  :  log2
+max_samples  :  0.9
+Accuracy:  0.9003
+F1 Score:  0.9018217626784835
+**EXPERIMENT**
+C =  300
+D =  5000
+Mode =  gb
+Gradient Boosting...
+Best Parameters for Gradient Boosting:
+{'ccp_alpha': 0.0, 'criterion': 'friedman_mse', 'init': None, 'learning_rate': 0.25, 'loss': 'log_loss', 'max_depth': 3, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 150, 'n_iter_no_change': None, 'random_state': None, 'subsample': 1.0, 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': 0, 'warm_start': False}
+**Testing on Test Set**
+Accuracy:  0.9973
+F1 Score:  0.997307270370001
+
+**EXPERIMENT**
+C =  500
+D =  100
+Mode =  dt
+Best Hyperparameters: 
+criterion :  gini
+max_depth :  6
+max_features :  sqrt
+min_samples_leaf :  0.01
+min_samples_split :  0.01
+Final Results on Test Data:
+Accuracy:  0.59
+F1 Score:  0.59
+**EXPERIMENT**
+C =  500
+D =  100
+Mode =  bagging
+Best Hyperparameters: 
+criterion :  entropy
+max_depth :  12
+max_features :  sqrt
+min_samples_leaf :  0.05
+min_samples_split :  0.1
+Final Results on Test Data:
+Accuracy:  0.6
+F1 Score:  0.574468085106383
+Best Parameters:
+n_estimators :  50
+max_samples :  0.25
+Accuracy:  0.82
+F1 Score:  0.8181818181818182
+**EXPERIMENT**
+C =  500
+D =  100
+Mode =  rf
+Constructing the random forest...
+n_estimators  :  150
+criterion  :  entropy
+max_depth  :  5
+min_samples_split  :  0.01
+min_samples_leaf  :  0.01
+max_features  :  sqrt
+max_samples  :  0.75
+Accuracy:  0.89
+F1 Score:  0.8921568627450981
+**EXPERIMENT**
+C =  500
+D =  100
+Mode =  gb
+Gradient Boosting...
+Best Parameters for Gradient Boosting:
+{'ccp_alpha': 0.0, 'criterion': 'friedman_mse', 'init': None, 'learning_rate': 0.05, 'loss': 'log_loss', 'max_depth': 3, 'max_features': 'log2', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 150, 'n_iter_no_change': None, 'random_state': None, 'subsample': 1.0, 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': 0, 'warm_start': False}
+**Testing on Test Set**
+Accuracy:  0.89
+F1 Score:  0.8932038834951457
+**EXPERIMENT**
+C =  500
+D =  1000
+Mode =  dt
+Best Hyperparameters: 
+criterion :  gini
+max_depth :  6
+max_features :  None
+min_samples_leaf :  0.01
+min_samples_split :  0.01
+Final Results on Test Data:
+Accuracy:  0.7065
+F1 Score:  0.7190043082814744
+**EXPERIMENT**
+C =  500
+D =  1000
+Mode =  bagging
+Best Hyperparameters: 
+criterion :  entropy
+max_depth :  6
+max_features :  None
+min_samples_leaf :  0.01
+min_samples_split :  0.01
+Final Results on Test Data:
+Accuracy:  0.708
+F1 Score:  0.7203065134099617
+Best Parameters:
+n_estimators :  50
+max_samples :  0.15
+Accuracy:  0.8805
+F1 Score:  0.8812717337307501
+**EXPERIMENT**
+C =  500
+D =  1000
+Mode =  rf
+Constructing the random forest...
+n_estimators  :  150
+criterion  :  gini
+max_depth  :  10
+min_samples_split  :  0.01
+min_samples_leaf  :  0.01
+max_features  :  log2
+max_samples  :  0.9
+Accuracy:  0.957
+F1 Score:  0.9575098814229249
+**EXPERIMENT**
+C =  500
+D =  1000
+Mode =  gb
+Gradient Boosting...
+Best Parameters for Gradient Boosting:
+{'ccp_alpha': 0.0, 'criterion': 'friedman_mse', 'init': None, 'learning_rate': 0.25, 'loss': 'log_loss', 'max_depth': 3, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 150, 'n_iter_no_change': None, 'random_state': None, 'subsample': 1.0, 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': 0, 'warm_start': False}
+**Testing on Test Set**
+Accuracy:  0.9965
+F1 Score:  0.9965122072745392
+**EXPERIMENT**
+C =  500
+D =  5000
+Mode =  dt
+Best Hyperparameters: 
+criterion :  log_loss
+max_depth :  9
+max_features :  None
+min_samples_leaf :  10
+min_samples_split :  2
+Final Results on Test Data:
+Accuracy:  0.793
+F1 Score:  0.8040514956455888
+**EXPERIMENT**
+C =  500
+D =  5000
+Mode =  bagging
+Best Hyperparameters: 
+criterion :  entropy
+max_depth :  9
+max_features :  None
+min_samples_leaf :  10
+min_samples_split :  2
+Final Results on Test Data:
+Accuracy:  0.7921
+F1 Score:  0.8029570656809781
+Best Parameters:
+n_estimators :  50
+max_samples :  0.05
+Accuracy:  0.8882
+F1 Score:  0.8880208333333334
+**EXPERIMENT**
+C =  500
+D =  5000
+Mode =  rf
+Constructing the random forest...
+n_estimators  :  150
+criterion  :  gini
+max_depth  :  15
+min_samples_split  :  0.01
+min_samples_leaf  :  0.01
+max_features  :  log2
+max_samples  :  0.75
+Accuracy:  0.9488
+F1 Score:  0.9491357043512816
+**EXPERIMENT**
+C =  500
+D =  5000
+Mode =  gb
+Gradient Boosting...
+Best Parameters for Gradient Boosting:
+{'ccp_alpha': 0.0, 'criterion': 'friedman_mse', 'init': None, 'learning_rate': 0.25, 'loss': 'log_loss', 'max_depth': 3, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 150, 'n_iter_no_change': None, 'random_state': None, 'subsample': 1.0, 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': 0, 'warm_start': False}
+**Testing on Test Set**
+Accuracy:  0.9989
+F1 Score:  0.9989012086704625
+**EXPERIMENT**
+C =  1000
+D =  100
+Mode =  dt
+Best Hyperparameters: 
+criterion :  entropy
+max_depth :  9
+max_features :  None
+min_samples_leaf :  0.01
+min_samples_split :  2
+Final Results on Test Data:
+Accuracy:  0.735
+F1 Score:  0.7282051282051282
+**EXPERIMENT**
+C =  1000
+D =  100
+Mode =  bagging
+Best Hyperparameters: 
+criterion :  entropy
+max_depth :  12
+max_features :  None
+min_samples_leaf :  0.01
+min_samples_split :  2
+Final Results on Test Data:
+Accuracy:  0.72
+F1 Score:  0.7171717171717171
+Best Parameters:
+n_estimators :  50
+max_samples :  0.1
+Accuracy:  0.905
+F1 Score:  0.9107981220657277
+**EXPERIMENT**
+C =  1000
+D =  100
+Mode =  rf
+Constructing the random forest...
+n_estimators  :  150
+criterion  :  gini
+max_depth  :  15
+min_samples_split  :  0.05
+min_samples_leaf  :  0.05
+max_features  :  log2
+max_samples  :  0.5
+Accuracy:  0.97
+F1 Score:  0.9702970297029703
+**EXPERIMENT**
+C =  1000
+D =  100
+Mode =  gb
+Gradient Boosting...
+Best Parameters for Gradient Boosting:
+{'ccp_alpha': 0.0, 'criterion': 'friedman_mse', 'init': None, 'learning_rate': 0.25, 'loss': 'log_loss', 'max_depth': 3, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_iter_no_change': None, 'random_state': None, 'subsample': 1.0, 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': 0, 'warm_start': False}
+**Testing on Test Set**
+Accuracy:  0.96
+F1 Score:  0.96
+**EXPERIMENT**
+C =  1000
+D =  1000
+Mode =  dt
+Best Hyperparameters: 
+criterion :  log_loss
+max_depth :  8
+max_features :  None
+min_samples_leaf :  5
+min_samples_split :  2
+Final Results on Test Data:
+Accuracy:  0.8045
+F1 Score:  0.8128291048348492
+**EXPERIMENT**
+C =  1000
+D =  1000
+Mode =  bagging
+Best Hyperparameters: 
+criterion :  entropy
+max_depth :  7
+max_features :  None
+min_samples_leaf :  10
+min_samples_split :  2
+Final Results on Test Data:
+Accuracy:  0.8195
+F1 Score:  0.8320148906468124
+Best Parameters:
+n_estimators :  30
+max_samples :  0.05
+Accuracy:  0.934
+F1 Score:  0.9353574926542605
+**EXPERIMENT**
+C =  1000
+D =  1000
+Mode =  rf
+Constructing the random forest...
+n_estimators  :  150
+criterion  :  gini
+max_depth  :  10
+min_samples_split  :  0.01
+min_samples_leaf  :  0.01
+max_features  :  log2
+max_samples  :  0.5
+Accuracy:  0.995
+F1 Score:  0.9949899799599199
+**EXPERIMENT**
+C =  1000
+D =  1000
+Mode =  gb
+Gradient Boosting...
+Best Parameters for Gradient Boosting:
+{'ccp_alpha': 0.0, 'criterion': 'friedman_mse', 'init': None, 'learning_rate': 0.25, 'loss': 'exponential', 'max_depth': 3, 'max_features': 'log2', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 150, 'n_iter_no_change': None, 'random_state': None, 'subsample': 1.0, 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': 0, 'warm_start': False}
+**Testing on Test Set**
+Accuracy:  0.998
+F1 Score:  0.998003992015968
+**EXPERIMENT**
+C =  1000
+D =  5000
+Mode =  dt
+Best Hyperparameters: 
+criterion :  entropy
+max_depth :  10
+max_features :  None
+min_samples_leaf :  5
+min_samples_split :  2
+Final Results on Test Data:
+Accuracy:  0.8649
+F1 Score:  0.8688985929160602
+**EXPERIMENT**
+C =  1000
+D =  5000
+Mode =  bagging
+Best Hyperparameters: 
+criterion :  log_loss
+max_depth :  10
+max_features :  None
+min_samples_leaf :  5
+min_samples_split :  2
+Final Results on Test Data:
+Accuracy:  0.8661
+F1 Score:  0.869835714980072
+Best Parameters:
+n_estimators :  50
+max_samples :  0.2
+Accuracy:  0.9585
+F1 Score:  0.9585373164152263
+**EXPERIMENT**
+C =  1000
+D =  5000
+Mode =  rf
+Constructing the random forest...
+n_estimators  :  150
+criterion  :  entropy
+max_depth  :  10
+min_samples_split  :  0.01
+min_samples_leaf  :  0.01
+max_features  :  log2
+max_samples  :  0.75
+Accuracy:  0.9948
+F1 Score:  0.9948031181291225
+**EXPERIMENT**
+C =  1000
+D =  5000
+Mode =  gb
+Gradient Boosting...
+Best Parameters for Gradient Boosting:
+{'ccp_alpha': 0.0, 'criterion': 'friedman_mse', 'init': None, 'learning_rate': 0.25, 'loss': 'log_loss', 'max_depth': 3, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 150, 'n_iter_no_change': None, 'random_state': None, 'subsample': 1.0, 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': 0, 'warm_start': False}
+**Testing on Test Set**
+Accuracy:  0.9999
+F1 Score:  0.9999000099990001
+**EXPERIMENT**
+C =  1500
+D =  100
+Mode =  dt
+Best Hyperparameters: 
+criterion :  entropy
+max_depth :  11
+max_features :  sqrt
+min_samples_leaf :  0.01
+min_samples_split :  0.1
+Final Results on Test Data:
+Accuracy:  0.78
+F1 Score:  0.7821782178217822
+**EXPERIMENT**
+C =  1500
+D =  100
+Mode =  bagging
+Best Hyperparameters: 
+criterion :  gini
+max_depth :  13
+max_features :  sqrt
+min_samples_leaf :  0.01
+min_samples_split :  2
+Final Results on Test Data:
+Accuracy:  0.84
+F1 Score:  0.8367346938775511
+Best Parameters:
+n_estimators :  40
+max_samples :  0.25
+Accuracy:  0.97
+F1 Score:  0.970873786407767
+**EXPERIMENT**
+C =  1500
+D =  100
+Mode =  rf
+Constructing the random forest...
+n_estimators  :  50
+criterion  :  gini
+max_depth  :  5
+min_samples_split  :  0.01
+min_samples_leaf  :  0.01
+max_features  :  sqrt
+max_samples  :  0.5
+Accuracy:  1.0
+F1 Score:  1.0
+**EXPERIMENT**
+C =  1500
+D =  100
+Mode =  gb
+Gradient Boosting...
+Best Parameters for Gradient Boosting:
+{'ccp_alpha': 0.0, 'criterion': 'friedman_mse', 'init': None, 'learning_rate': 0.01, 'loss': 'log_loss', 'max_depth': 3, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_iter_no_change': None, 'random_state': None, 'subsample': 1.0, 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': 0, 'warm_start': False}
+**Testing on Test Set**
+Accuracy:  1.0
+F1 Score:  1.0
+**EXPERIMENT**
+C =  1500
+D =  1000
+Mode =  dt
+Best Hyperparameters: 
+criterion :  entropy
+max_depth :  7
+max_features :  None
+min_samples_leaf :  1
+min_samples_split :  0.01
+Final Results on Test Data:
+Accuracy:  0.932
+F1 Score:  0.9316582914572864
+**EXPERIMENT**
+C =  1500
+D =  1000
+Mode =  bagging
+Best Hyperparameters: 
+criterion :  entropy
+max_depth :  11
+max_features :  None
+min_samples_leaf :  1
+min_samples_split :  0.01
+Final Results on Test Data:
+Accuracy:  0.933
+F1 Score:  0.9321862348178138
+Best Parameters:
+n_estimators :  40
+max_samples :  0.05
+Accuracy:  0.985
+F1 Score:  0.984984984984985
+**EXPERIMENT**
+C =  1500
+D =  1000
+Mode =  rf
+Constructing the random forest...
+n_estimators  :  50
+criterion  :  gini
+max_depth  :  5
+min_samples_split  :  0.01
+min_samples_leaf  :  0.01
+max_features  :  log2
+max_samples  :  0.75
+Accuracy:  1.0
+F1 Score:  1.0
+**EXPERIMENT**
+C =  1500
+D =  1000
+Mode =  gb
+Gradient Boosting...
+Best Parameters for Gradient Boosting:
+{'ccp_alpha': 0.0, 'criterion': 'friedman_mse', 'init': None, 'learning_rate': 0.01, 'loss': 'log_loss', 'max_depth': 3, 'max_features': 'log2', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_iter_no_change': None, 'random_state': None, 'subsample': 1.0, 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': 0, 'warm_start': False}
+**Testing on Test Set**
+Accuracy:  1.0
+F1 Score:  1.0
+**EXPERIMENT**
+C =  1500
+D =  5000
+Mode =  dt
+Best Hyperparameters: 
+criterion :  log_loss
+max_depth :  10
+max_features :  None
+min_samples_leaf :  1
+min_samples_split :  2
+Final Results on Test Data:
+Accuracy:  0.9554
+F1 Score:  0.9558153358430751
+**EXPERIMENT**
+C =  1500
+D =  5000
+Mode =  bagging
+Best Hyperparameters: 
+criterion :  log_loss
+max_depth :  10
+max_features :  None
+min_samples_leaf :  1
+min_samples_split :  2
+Final Results on Test Data:
+Accuracy:  0.9548
+F1 Score:  0.9551942902458367
+Best Parameters:
+n_estimators :  50
+max_samples :  0.1
+Accuracy:  0.9906
+F1 Score:  0.9906112664802237
+**EXPERIMENT**
+C =  1500
+D =  5000
+Mode =  rf
+Constructing the random forest...
+n_estimators  :  150
+criterion  :  entropy
+max_depth  :  5
+min_samples_split  :  0.01
+min_samples_leaf  :  0.05
+max_features  :  log2
+max_samples  :  0.5
+Accuracy:  0.9998
+F1 Score:  0.9998
+**EXPERIMENT**
+C =  1500
+D =  5000
+Mode =  gb
+Gradient Boosting...
+Best Parameters for Gradient Boosting:
+{'ccp_alpha': 0.0, 'criterion': 'friedman_mse', 'init': None, 'learning_rate': 0.01, 'loss': 'exponential', 'max_depth': 3, 'max_features': 'log2', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 150, 'n_iter_no_change': None, 'random_state': None, 'subsample': 1.0, 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': 0, 'warm_start': False}
+**Testing on Test Set**
+Accuracy:  1.0
+F1 Score:  1.0
+**EXPERIMENT**
+C =  1800
+D =  100
+Mode =  dt
+Best Hyperparameters: 
+criterion :  gini
+max_depth :  6
+max_features :  None
+min_samples_leaf :  5
+min_samples_split :  2
+Final Results on Test Data:
+Accuracy:  0.94
+F1 Score:  0.9393939393939394
+**EXPERIMENT**
+C =  1800
+D =  100
+Mode =  bagging
+Best Hyperparameters: 
+criterion :  entropy
+max_depth :  11
+max_features :  sqrt
+min_samples_leaf :  1
+min_samples_split :  0.1
+Final Results on Test Data:
+Accuracy:  0.89
+F1 Score:  0.8888888888888888
+Best Parameters:
+n_estimators :  40
+max_samples :  0.25
+Accuracy:  0.99
+F1 Score:  0.98989898989899
+**EXPERIMENT**
+C =  1800
+D =  100
+Mode =  rf
+Constructing the random forest...
+n_estimators  :  50
+criterion  :  gini
+max_depth  :  5
+min_samples_split  :  0.01
+min_samples_leaf  :  0.01
+max_features  :  sqrt
+max_samples  :  0.5
+Accuracy:  1.0
+F1 Score:  1.0
+**EXPERIMENT**
+C =  1800
+D =  100
+Mode =  gb
+Gradient Boosting...
+Best Parameters for Gradient Boosting:
+{'ccp_alpha': 0.0, 'criterion': 'friedman_mse', 'init': None, 'learning_rate': 0.01, 'loss': 'log_loss', 'max_depth': 1, 'max_features': 'log2', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_iter_no_change': None, 'random_state': None, 'subsample': 1.0, 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': 0, 'warm_start': False}
+**Testing on Test Set**
+Accuracy:  0.995
+F1 Score:  0.9950248756218906
+**EXPERIMENT**
+C =  1800
+D =  1000
+Mode =  dt
+Best Hyperparameters: 
+criterion :  log_loss
+max_depth :  13
+max_features :  None
+min_samples_leaf :  1
+min_samples_split :  2
+Final Results on Test Data:
+Accuracy:  0.9735
+F1 Score:  0.9737493808816245
+**EXPERIMENT**
+C =  1800
+D =  1000
+Mode =  bagging
+Best Hyperparameters: 
+criterion :  entropy
+max_depth :  12
+max_features :  None
+min_samples_leaf :  1
+min_samples_split :  2
+Final Results on Test Data:
+Accuracy:  0.9745
+F1 Score:  0.974764967837704
+Best Parameters:
+n_estimators :  50
+max_samples :  0.05
+Accuracy:  0.9945
+F1 Score:  0.9945082376435347
+**EXPERIMENT**
+C =  1800
+D =  1000
+Mode =  rf
+Constructing the random forest...
+n_estimators  :  50
+criterion  :  gini
+max_depth  :  5
+min_samples_split  :  0.01
+min_samples_leaf  :  0.01
+max_features  :  sqrt
+max_samples  :  0.5
+Accuracy:  0.9995
+F1 Score:  0.9994997498749375
+**EXPERIMENT**
+C =  1800
+D =  1000
+Mode =  gb
+Gradient Boosting...
+Best Parameters for Gradient Boosting:
+{'ccp_alpha': 0.0, 'criterion': 'friedman_mse', 'init': None, 'learning_rate': 0.01, 'loss': 'log_loss', 'max_depth': 1, 'max_features': 'log2', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 150, 'n_iter_no_change': None, 'random_state': None, 'subsample': 1.0, 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': 0, 'warm_start': False}
+**Testing on Test Set**
+Accuracy:  1.0
+F1 Score:  1.0
+**EXPERIMENT**
+C =  1800
+D =  5000
+Mode =  dt
+Best Hyperparameters: 
+criterion :  entropy
+max_depth :  9
+max_features :  None
+min_samples_leaf :  5
+min_samples_split :  2
+Final Results on Test Data:
+Accuracy:  0.9842
+F1 Score:  0.9842723472028668
+**EXPERIMENT**
+C =  1800
+D =  5000
+Mode =  bagging
+Best Hyperparameters: 
+criterion :  entropy
+max_depth :  12
+max_features :  None
+min_samples_leaf :  1
+min_samples_split :  2
+Final Results on Test Data:
+Accuracy:  0.9825
+F1 Score:  0.9826646854878652
+Best Parameters:
+n_estimators :  50
+max_samples :  0.25
+Accuracy:  0.9967
+F1 Score:  0.9966950425638458
+**EXPERIMENT**
+C =  1800
+D =  5000
+Mode =  rf
+Constructing the random forest...
+n_estimators  :  50
+criterion  :  gini
+max_depth  :  5
+min_samples_split  :  0.01
+min_samples_leaf  :  0.01
+max_features  :  log2
+max_samples  :  0.5
+Accuracy:  1.0
+F1 Score:  1.0
+**EXPERIMENT**
+C =  1800
+D =  5000
+Mode =  gb
+Gradient Boosting...
+Best Parameters for Gradient Boosting:
+{'ccp_alpha': 0.0, 'criterion': 'friedman_mse', 'init': None, 'learning_rate': 0.01, 'loss': 'log_loss', 'max_depth': 3, 'max_features': 'log2', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 50, 'n_iter_no_change': None, 'random_state': None, 'subsample': 1.0, 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': 0, 'warm_start': False}
+**Testing on Test Set**
+Accuracy:  1.0
+F1 Score:  1.0

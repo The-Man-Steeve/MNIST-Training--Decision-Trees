@@ -1,0 +1,5 @@
+**Random Forest Classifier**
+Best Parameters: 
+{'criterion': 'gini', 'max_depth': 20, 'max_features': 'sqrt', 'max_samples': 0.75, 'n_estimators': 200}
+Accuracy: 
+0.9661
